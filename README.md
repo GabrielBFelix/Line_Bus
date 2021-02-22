@@ -2,7 +2,8 @@
 ## Projeto para a disciplina Teste de Software
 
 Line Bus será é um programa que será usado para coordenar as linhas de ônibus. Para tal projeto, usaremos a linguagem Javascript com os seguints frameworks para testes:
-- [node.js](https://nodejs.org/en/)
+- node.js
+- Express
 - Jest
 
 ## Docs
@@ -13,3 +14,14 @@ Line Bus será é um programa que será usado para coordenar as linhas de ônibu
 ## Tutoriais
 - [node](https://www.youtube.com/watch?v=CjQMi8mv2Do)
 - [Jest](https://www.youtube.com/watch?v=8gHEv5iNRKk)
+
+## Instalação
+- [node](https://nodejs.org/en/)
+- express 
+  ```sh
+  npm install express
+  ```
+- Jest
+  ```sh
+  npm install jest
+  ```
