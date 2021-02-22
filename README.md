@@ -9,3 +9,6 @@ Line Bus será é um programa que será usado para coordenar as linhas de ônibu
 - [COBERTURA TESTES](https://github.com/GabrielBFelix/Line_Bus/blob/main/docs/COBERTURA_TESTES.md)
 - [TESTES DE INTEGRAÇÃO](https://github.com/GabrielBFelix/Line_Bus/blob/main/docs/TESTE_INTEGRACAO.md)
 - [TESTES DE UNIDADE](https://github.com/GabrielBFelix/Line_Bus/blob/main/docs/TESTE_UNIDADE.md)
+
+## Tutoriais
+- [Jest](https://www.youtube.com/watch?v=8gHEv5iNRKk)
