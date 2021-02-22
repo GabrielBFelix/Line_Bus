@@ -14,10 +14,11 @@ class bus {
     }
 
     passageiro_Sai(quant) {
-        if(this.quant_passageiros - quant < 0) this.quant_passageiros = 0;
+        this.quant_passageiros = this.quant_passageiros - quant;
+        if(this.quant_passageiros < 0) this.quant_passageiros = 0;
     }
     passageiro_Entra(quant) {
-        this.quant_passageiros + quant;
+        this.quant_passageiros = this.quant_passageiros + quant;
     }
 }
 module.exports = bus;
