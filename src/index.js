@@ -8,7 +8,7 @@ function enviar_para_html(req, res, caminho){
 }
 
 router.get('/', function(req, res){ // / simboliza o principal (no caso o localhost)
-    enviar_para_index(req, res, '/front_end/index.html');
+    enviar_para_html(req, res, '/front_end/index.html');
 });
 router.get('/sobre', function(req, res){
     enviar_para_html(req, res, '/front_end/sobre.html');
