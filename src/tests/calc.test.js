@@ -1,14 +1,14 @@
-const calc = require('../backend/calc');
+const bus = require('../backend/bus');
 
 describe("Calc test case", () => {
-  const calculadora = new calc();
+  const onibus = new bus("modelo legal", false, 10, 20);
 
-  test('adds 1 + 2 to equal 3', () => {
-    expect(calculadora.sum(1, 2)).toBe(3);
+  test('Testa onibus lotado', () => {
+    expect(onibus.superlotacao()).toBe(10);
   });
 
-  test('mult 1 * 2 to equal 2', () => {
-    expect(calculadora.mult(1, 2)).toBe(2);
+  test('Testa com assento sobrando', () => {
+    onibus.passageiro_Sai(21);
+    expect(onibus.superlotacao()).toBe(0);
   });
-
 });
