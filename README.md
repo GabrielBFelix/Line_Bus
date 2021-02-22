@@ -13,7 +13,7 @@ Line Bus será é um programa que será usado para coordenar as linhas de ônibu
 
 ## Tutoriais
 - [node](https://www.youtube.com/watch?v=CjQMi8mv2Do)
-- [Jest](https://www.youtube.com/watch?v=8gHEv5iNRKk)
+- [Jest](https://jestjs.io/docs/en/getting-started)
 
 ## Instalação
 - [node](https://nodejs.org/en/)
