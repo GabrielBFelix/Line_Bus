@@ -21,4 +21,4 @@ app.listen(process.env.port || 3000);
 console.log('server rodando');
 
 const rota = new Rota();
-rota.gerarOnibus(2, 2, 'quant_assentos', 'nada');
+rota.gerarOnibus("onibus", false, 15, 0);
