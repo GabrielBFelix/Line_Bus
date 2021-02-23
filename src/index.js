@@ -1,5 +1,3 @@
-const Rota = require('./backend/Rota');
-
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -19,6 +17,3 @@ router.get('/sobre', function(req, res){
 app.use('/', router);
 app.listen(process.env.port || 3000);
 console.log('server rodando');
-
-const rota = new Rota();
-rota.gerarOnibus("onibus", false, 15, 0);
