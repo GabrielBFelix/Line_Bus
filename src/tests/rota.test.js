@@ -9,6 +9,11 @@ describe("rota test case", () => {
     });
   
     test('should not generate a bus', () => {
+        expect(rota.gerarOnibus(2, 2, 'quant_assentos', 'nada')).toBeNull();
+    });
+    
+    test('should generate a bus', () => {
+        expect(rota.gerarOnibus('onibus', false, 15, 0)).not.toBeNull();
     });
     
   });

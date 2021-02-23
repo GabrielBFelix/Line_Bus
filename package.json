@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/GabrielBFelix/Line_Bus#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
     "jest": "^26.6.3"
   }
 }
