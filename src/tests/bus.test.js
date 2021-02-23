@@ -1,10 +1,10 @@
-const bus = require('../backend/bus');
+const Bus = require('../backend/Bus');
 
-describe("Calc test case", () => {
+describe("bus test case", () => {
   let onibus;
-  
+
   beforeEach(() => {
-    onibus = new bus("modelo legal", false, 10, 20);
+    onibus = new Bus("modelo legal", false, 10, 20);
   });
 
   test('Testa superlotação', () => {
@@ -25,4 +25,6 @@ describe("Calc test case", () => {
     onibus.passageiro_Entra(5);
     expect(onibus.quant_passageiros).toBe(25);
   });
+
+
 });

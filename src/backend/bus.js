@@ -1,5 +1,5 @@
 
-class bus {
+class Bus {
     constructor(modelo, quebrado, quant_assentos, quant_passageiros) {
         this.modelo = modelo;
         this.quebrado = quebrado;
@@ -8,6 +8,7 @@ class bus {
     }
 
     superlotacao() {
+        // retorna a quantida de pessoas em pé
         let aux =  this.quant_passageiros - this.quant_assentos;
         if (aux < 0) aux = 0;
         return aux;
@@ -21,4 +22,4 @@ class bus {
         this.quant_passageiros = this.quant_passageiros + quant;
     }
 }
-module.exports = bus;
+module.exports = Bus;
