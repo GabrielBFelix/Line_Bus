@@ -3,7 +3,6 @@ const Bus = require('../backend/Bus');
 class Rota {
     constructor() {
         this.onibus = null;
-        console.log('rota criada');
     }
 
     gerarOnibus(modelo, quebrado, quant_assentos, quant_passageiros) {
