@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614113684858" clover="3.2.0">
-  <project timestamp="1614113684858" name="All files">
+<coverage generated="1614170452577" clover="3.2.0">
+  <project timestamp="1614170452577" name="All files">
     <metrics statements="19" coveredstatements="17" conditionals="10" coveredconditionals="10" methods="8" coveredmethods="7" elements="37" coveredelements="34" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
     <file name="Bus.js" path="C:\Users\pedro\Desktop\faculdade\7º periodo (2020.2)\Teste de software\Line_Bus\src\backend\Bus.js">
       <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
@@ -24,8 +24,8 @@
       <line num="11" count="1" type="stmt"/>
       <line num="15" count="2" type="cond" truecount="4" falsecount="0"/>
       <line num="19" count="0" type="stmt"/>
-      <line num="20" count="0" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
