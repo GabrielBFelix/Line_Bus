@@ -58,9 +58,7 @@ RF022 - Ver Rota | Um usuário pode ver os detalhes de uma rota | Padrão |
 
 Abaixo apresentamos o modelo conceitual usando o **YUML**.
 
- ![Modelo UML](yuml/monitoria-modelo.png)
-
-O código que gera o diagrama está [Aqui!](yuml/monitoria-yuml.md). O detalhamento dos modelos conceitual e de dados do projeto estão no [Documento de Modelos](doc-modelos.md).
+ ![](yuml/78cab75f.jpg)
 
 #### Descrição das Entidades
 
