@@ -45,15 +45,22 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 | Testes de Aceitação (TA) |  |
 | ----------- | --------- |
 | **Código**      | **Descrição** |
-| **TA01.00** | e-mail inválido ao cadastrar |
-| **TA02.00** | Login inexistente |
-| **TA03.00** | Comprar número negativo de tickets |
+| **TA01.01** | Tentar cadastrar um usuário com um e-mail invalido, e esperar uma mensagem de erro |
+| **TA01.02** | Cadastrar um usuário com dados validos, reconhecer a mensagem de sucesso |
+| **TA01.03** | Tentar realizar um login com email e senha não cadastrados, e esperar uma mensagem de erro |
+| **TA01.04** | Alterar os campos de um usuario e checar se os campos alterados foram salvos corretamente |
+| **TA01.05** | Excluir um usuário e checar se ele foi excluído |
+| **TA01.06** | Checar se os dados de um usuário são mostrados corretamente |
+| **TA01.07** | Checar se os dados de um ônibus são mostrados corretamente |
+| **TA01.08** | Comprar um ticket e checar se a quantidade de tickets aumentou |
+| **TA01.09** | Checar se os dados de um são mostrados corretamente |
 
-### User Story US02 - Manter Administrador
+
+### User Story US02 - Gerenciar Sistema
 
 |               |                                                                |
 | ------------- | :------------------------------------------------------------- |
-| **Descrição** | Deve ser possível criar um usuário Administrador no sistema |
+| **Descrição** | Um admnistrador poderá realizar a gerência do sistema de ônibus |
 
 | **Requisitos envolvidos** |                                                    |
 | ------------- | :------------------------------------------------------------- |
