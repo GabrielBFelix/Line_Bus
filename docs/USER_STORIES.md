@@ -93,7 +93,6 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 
 | **Requisitos envolvidos** |                                                    |
 | ------------- | :------------------------------------------------------------- |
-
 | RF19 | Cadastrar uma rota |
 | RF20 | Alterar uma rota |
 | RF21 | Excluir uma rota |
@@ -119,7 +118,6 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 
 | **Requisitos envolvidos** |                                                    |
 | ------------- | :------------------------------------------------------------- |
-
 | RF16 | Cadastrar ponto de parada |
 | RF17 | editar ponto de parada |
 | RF18 | Excluir ponto de parada |
