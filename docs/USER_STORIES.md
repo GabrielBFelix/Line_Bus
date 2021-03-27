@@ -56,7 +56,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 | **TA01.09** | Checar se os dados de um são mostrados corretamente |
 
 
-### User Story US02 - Gerenciar Sistema
+### User Story US02 - Manter Ônibus
 
 |               |                                                                |
 | ------------- | :------------------------------------------------------------- |
@@ -68,14 +68,6 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 | RF11 | Alterar Ônibus |
 | RF12 | Desativar Ônibus |
 | RF13 | Excluir Ônibus |
-| RF14 | Alterar Usuário |
-| RF15 | Banir Usuário |
-| RF16 | Cadastrar ponto de parada |
-| RF17 | editar ponto de parada |
-| RF18 | Excluir ponto de parada |
-| RF19 | Cadastrar uma rota |
-| RF20 | Alterar uma rota |
-| RF21 | Excluir uma rota |
 
 |               |                                                                |
 | ------------- | :------------------------------------------------------------- |
@@ -91,3 +83,54 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 | **TA02.00** | Alterar Usuário inexistente |
 | **TA03.00** | Editar ponto de parada inexistente |
 | **TA04.00** | Criar rota sem paradas |
+
+
+### User Story US03 - Manter Rota
+
+|               |                                                                |
+| ------------- | :------------------------------------------------------------- |
+| **Descrição** | Um admnistrador poderá realizar a gerência do sistema de ônibus |
+
+| **Requisitos envolvidos** |                                                    |
+| ------------- | :------------------------------------------------------------- |
+
+| RF19 | Cadastrar uma rota |
+| RF20 | Alterar uma rota |
+| RF21 | Excluir uma rota |
+
+|               |                                                                |
+| ------------- | :------------------------------------------------------------- |
+| **Prioridade**            | Essencial                           |
+| **Estimativa**            | 8 h                                 |
+| **Tempo Gasto (real):**   |                                     |
+| **Tamanho Funcional**     | 7 PF                                |
+
+| Testes de Aceitação (TA) |  |
+| ----------- | --------- |
+| **Código**      | **Descrição** |
+
+
+
+### User Story US04 - Manter Pontos de Parada
+
+|               |                                                                |
+| ------------- | :------------------------------------------------------------- |
+| **Descrição** | Um admnistrador poderá realizar a gerência do sistema de ônibus |
+
+| **Requisitos envolvidos** |                                                    |
+| ------------- | :------------------------------------------------------------- |
+
+| RF16 | Cadastrar ponto de parada |
+| RF17 | editar ponto de parada |
+| RF18 | Excluir ponto de parada |
+
+|               |                                                                |
+| ------------- | :------------------------------------------------------------- |
+| **Prioridade**            | Essencial                           |
+| **Estimativa**            | 8 h                                 |
+| **Tempo Gasto (real):**   |                                     |
+| **Tamanho Funcional**     | 7 PF                                |
+
+| Testes de Aceitação (TA) |  |
+| ----------- | --------- |
+| **Código**      | **Descrição** |
