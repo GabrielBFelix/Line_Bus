@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614170452577" clover="3.2.0">
-  <project timestamp="1614170452577" name="All files">
-    <metrics statements="19" coveredstatements="17" conditionals="10" coveredconditionals="10" methods="8" coveredmethods="7" elements="37" coveredelements="34" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
+<coverage generated="1614171101467" clover="3.2.0">
+  <project timestamp="1614171101468" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7" elements="34" coveredelements="34" complexity="0" loc="17" ncloc="17" packages="1" files="2" classes="2"/>
     <file name="Bus.js" path="C:\Users\pedro\Desktop\faculdade\7º periodo (2020.2)\Teste de software\Line_Bus\src\backend\Bus.js">
       <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
       <line num="4" count="5" type="stmt"/>
@@ -17,15 +17,13 @@
       <line num="25" count="2" type="stmt"/>
     </file>
     <file name="Rota.js" path="C:\Users\pedro\Desktop\faculdade\7º periodo (2020.2)\Teste de software\Line_Bus\src\backend\Rota.js">
-      <metrics statements="8" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="3"/>
+      <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
       <line num="1" count="1" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
       <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="11" count="1" type="stmt"/>
       <line num="15" count="2" type="cond" truecount="4" falsecount="0"/>
-      <line num="19" count="0" type="stmt"/>
-      <line num="21" count="0" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
