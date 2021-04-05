@@ -3,7 +3,11 @@ name: Node.js CI
 on: [push]
 
 jobs:
-  nome:
-    run: 
-      npm install
-      npm test
+  rodar_testes:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: rodar os testes
+      run: 
+        npm install
+        npm test
