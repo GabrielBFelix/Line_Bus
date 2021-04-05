@@ -11,3 +11,10 @@ jobs:
       run: 
         npm install
         npm test
+  
+  Qualidade_De_Codigo:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Verificar qualidade de código
+      uses: codeinspectorio/github-action@v1
