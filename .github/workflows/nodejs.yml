@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   nome:
-    steps:
-      run: 
-        npm install
-        npm test
+    run: 
+      npm install
+      npm test
