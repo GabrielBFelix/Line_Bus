@@ -14,6 +14,7 @@ Line Bus será é um programa que será usado para coordenar as linhas de ônibu
 - [Documento Lista de User Stories](https://github.com/GabrielBFelix/Line_Bus/blob/develop/docs/USER_STORIES.md)
 - [Manual de CI](https://github.com/GabrielBFelix/Line_Bus/blob/develop/docs/Manual_CI.md)
 - [Resumo de CI/CD](https://github.com/GabrielBFelix/Line_Bus/blob/develop/docs/Resumo%20sobre%20CI%20CD.md)
+- [Manual de Implantação de testes de mutação](https://github.com/GabrielBFelix/Line_Bus/blob/develop/docs/Manual_de_Implantacao.md)
 
 ## Tutoriais
 - [node](https://www.youtube.com/watch?v=CjQMi8mv2Do)
