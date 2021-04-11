@@ -24,6 +24,8 @@
     "mocha": "^8.3.0"
   },
   "devDependencies": {
+    "@stryker-mutator/core": "^4.5.1",
+    "@stryker-mutator/jest-runner": "^4.5.1",
     "jest": "^26.6.3",
     "nodemon": "^2.0.7",
     "sonar-scanner": "^3.1.0"
