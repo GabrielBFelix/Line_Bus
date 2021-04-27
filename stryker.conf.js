@@ -2,8 +2,9 @@
  * @type {import('@stryker-mutator/api/core').StrykerOptions}
  */
 module.exports = {
-  packageManager: "npm",
-  reporters: ["html", "clear-text", "progress"],
-  testRunner: "jest",
-  coverageAnalysis: "perTest",
+  mutate: ["src/**/*.js"],
+  mutator: 'javascript',
+  testRunner: 'jest',
+  reporter: ['progress', 'clear-text', 'html'],
+  coverageAnalysis: 'perTest',
 };

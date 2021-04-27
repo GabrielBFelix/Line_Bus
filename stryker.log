@@ -1,0 +1,161 @@
+11:16:55 (63199) INFO ConfigReader Using stryker.conf.js
+11:16:55 (63199) DEBUG BroadcastReporter Broadcasting to reporters ["html","clear-text","progress"]
+11:16:55 (63199) DEBUG ConfigReader Loading config /home/gabriel/projetos/faculdade/Testes/line-bus/stryker.conf.js
+11:16:55 (63199) DEBUG ConfigReader Loaded config: {
+  "packageManager": "npm",
+  "reporters": [
+    "html",
+    "clear-text",
+    "progress"
+  ],
+  "testRunner": "jest",
+  "coverageAnalysis": "perTest",
+  "allowConsoleColors": true,
+  "checkers": [],
+  "maxTestRunnerReuse": 0,
+  "commandRunner": {
+    "command": "npm test"
+  },
+  "clearTextReporter": {
+    "allowColor": true,
+    "logTests": true,
+    "maxTestsToLog": 3
+  },
+  "dashboard": {
+    "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
+    "reportType": "full"
+  },
+  "eventReporter": {
+    "baseDir": "reports/mutation/events"
+  },
+  "fileLogLevel": "trace",
+  "inPlace": false,
+  "logLevel": "debug",
+  "maxConcurrentTestRunners": 9007199254740991,
+  "mutate": [
+    "{src,lib}/**/!(*.+(s|S)pec|*.+(t|T)est).+(cjs|mjs|js|ts|jsx|tsx|html|vue)",
+    "!{src,lib}/**/__tests__/**/*.+(cjs|mjs|js|ts|jsx|tsx|html|vue)"
+  ],
+  "mutator": {
+    "plugins": null,
+    "excludedMutations": []
+  },
+  "plugins": [
+    "@stryker-mutator/*"
+  ],
+  "appendPlugins": [],
+  "jsonReporter": {
+    "fileName": "reports/mutation/mutation.json"
+  },
+  "disableTypeChecks": "{test,src,lib}/**/*.{js,ts,jsx,tsx,html,vue}",
+  "symlinkNodeModules": true,
+  "tempDirName": ".stryker-tmp",
+  "cleanTempDir": true,
+  "testRunnerNodeArgs": [],
+  "thresholds": {
+    "high": 80,
+    "low": 60,
+    "break": null
+  },
+  "timeoutFactor": 1.5,
+  "timeoutMS": 5000,
+  "dryRunTimeoutMinutes": 5,
+  "tsconfigFile": "tsconfig.json",
+  "warnings": true,
+  "configFile": "/home/gabriel/projetos/faculdade/Testes/line-bus/stryker.conf.js"
+}
+11:16:55 (63199) DEBUG PluginLoader Loading @stryker-mutator/* from /home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@stryker-mutator
+11:16:55 (63199) DEBUG PluginLoader Loading plugin "/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@stryker-mutator/instrumenter" (matched with expression @stryker-mutator/*)
+11:16:55 (63199) DEBUG PluginLoader Loading plugin "/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@stryker-mutator/jest-runner" (matched with expression @stryker-mutator/*)
+11:16:55 (63199) DEBUG PluginLoader Loading plugins /home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@stryker-mutator/instrumenter
+11:16:55 (63199) DEBUG PluginLoader Loading plugins /home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@stryker-mutator/jest-runner
+11:16:55 (63199) DEBUG PluginLoader Loading plugins /home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@stryker-mutator/core/dist/src/reporters/index.js
+11:16:55 (63199) DEBUG buildSchemaWithPluginContributions Contributing 1 schemas from plugins to options validation.
+11:16:55 (63199) INFO InputFileResolver Found 12 of 39 file(s) to be mutated.
+11:16:55 (63199) DEBUG InputFileResolver All input files: [
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/.gitignore",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/LICENSE",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/README.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/COBERTURA_TESTES.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/Manual_CI.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/Manual_de_Implantacao.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/REQUISITOS.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/Resumo sobre CI CD.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/Resumo teste de mutação.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/TESTE_INTEGRACAO.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/TESTE_UNIDADE.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/USER_STORIES.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/yuml/78cab75f.jpg",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/docs/yuml/modelo_conceitual_codigo.md",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/package-lock.json",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/package.json",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/public/favicon.ico",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/public/index.html",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/public/logo192.png",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/public/logo512.png",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/public/manifest.json",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/public/robots.txt",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/reports/mutation/html/index.html",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/backend/Bus.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/backend/Rota.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/App.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/Dashboard.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/ForgotPassword.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/Login.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/PrivateRoute.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/Signup.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/UpdateProfile.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/contexts/AuthContext.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/firebase.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/index.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/tests/bus.test.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/tests/rota.test.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/stryker.conf.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/stryker.log"
+]
+11:16:55 (63199) DEBUG InputFileResolver Files to mutate: [
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/backend/Bus.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/backend/Rota.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/App.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/Dashboard.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/ForgotPassword.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/Login.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/PrivateRoute.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/Signup.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/components/UpdateProfile.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/contexts/AuthContext.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/firebase.js",
+  "/home/gabriel/projetos/faculdade/Testes/line-bus/src/index.js"
+]
+11:16:55 (63199) DEBUG TemporaryDirectory Using temp directory "/home/gabriel/projetos/faculdade/Testes/line-bus/.stryker-tmp"
+11:16:55 (63199) DEBUG Instrumenter Instrumenting 12 source files with mutants
+11:16:55 (63199) DEBUG Instrumenter Instrumented src/backend/Bus.js (15 mutant(s))
+11:16:55 (63199) DEBUG Instrumenter Instrumented src/backend/Rota.js (31 mutant(s))
+11:16:55 (63199) DEBUG Stryker Not removing the temp dir because an error occurred
+11:16:55 (63199) ERROR Stryker Unexpected error occurred while running Stryker SyntaxError: /home/gabriel/projetos/faculdade/Testes/line-bus/src/components/App.js: Support for the experimental syntax 'jsx' isn't currently enabled (14:5):
+
+[0m [90m 12 |[39m [36mfunction[39m [33mApp[39m() {[0m
+[0m [90m 13 |[39m   [36mreturn[39m ([0m
+[0m[31m[1m>[22m[39m[90m 14 |[39m     [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m     [31m[1m^[22m[39m[0m
+[0m [90m 15 |[39m       [33m<[39m[33mContainer[39m[0m
+[0m [90m 16 |[39m         className[33m=[39m[32m"d-flex align-items-center justify-content-center"[39m[0m
+[0m [90m 17 |[39m         style[33m=[39m{{ minHeight[33m:[39m [32m"100vh"[39m }}[0m
+
+Add @babel/preset-react (https://git.io/JfeDR) to the 'presets' section of your Babel config to enable transformation.
+If you want to leave it as-is, add @babel/plugin-syntax-jsx (https://git.io/vb4yA) to the 'plugins' section to enable parsing.
+    at Object._raise (/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@babel/parser/lib/index.js:776:17)
+    at Object.raiseWithData (/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@babel/parser/lib/index.js:769:17)
+    at Object.expectOnePlugin (/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@babel/parser/lib/index.js:9751:18)
+    at Object.parseExprAtom (/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@babel/parser/lib/index.js:11126:22)
+    at Object.parseExprAtom (/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@babel/parser/lib/index.js:7986:45)
+    at Object.parseExprSubscripts (/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@babel/parser/lib/index.js:10709:23)
+    at Object.parseUpdate (/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@babel/parser/lib/index.js:10689:21)
+    at Object.parseMaybeUnary (/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@babel/parser/lib/index.js:10667:23)
+    at Object.parseExprOps (/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@babel/parser/lib/index.js:10524:23)
+    at Object.parseMaybeConditional (/home/gabriel/projetos/faculdade/Testes/line-bus/node_modules/@babel/parser/lib/index.js:10498:23) {
+  loc: Position { line: 14, column: 4 },
+  pos: 467,
+  missingPlugin: [ 'jsx', 'flow', 'typescript' ],
+  code: 'BABEL_PARSE_ERROR'
+}
